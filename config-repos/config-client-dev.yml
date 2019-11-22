@@ -6,6 +6,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:7000/eureka/
 server:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8d570972ee63f5f3cc7558651a97baceeb163707
   port: 8088
   
 #将/actuator/refresh 这个 Endpoint 暴露出来  
@@ -14,3 +18,9 @@ management:
     web:
       exposure:
         include: refres
+<<<<<<< HEAD
+=======
+=======
+  port: 8088
+>>>>>>> 0008985a7ccb12a3e38b585cc12b7b5bd5bcded0
+>>>>>>> 8d570972ee63f5f3cc7558651a97baceeb163707
