@@ -1,16 +1,16 @@
 spring:
   application:
-    name: test-config
+    name: config-client
+   cloud:
+    bus:
+      trace:
+        enabled: true
+      enabled: true
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7000/eureka/
 server:
   port: 8088
+
   
-#将/actuator/refresh 这个 Endpoint 暴露出来  
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refres
